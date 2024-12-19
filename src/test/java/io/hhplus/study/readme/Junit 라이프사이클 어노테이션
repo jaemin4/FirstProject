@@ -1,0 +1,16 @@
+@BeforeAll
+    모든 테스트 메서드 실행 전에 한 번 호출
+    static 메서드로 선언해야 함
+
+@BeforeEach
+    각 테스트 메서드 실행 전에 호출
+
+@Test
+    실제 테스트 메서드
+
+@AfterEach
+    각 테스트 메서드 실행 후 호출
+
+@AfterAll
+    모든 테스트 메서드 실행 후 한 번 호출
+    static 메서드로 선언해야 함
