@@ -8,4 +8,9 @@ public interface UserPointService {
 
     //포인트 충전
     public UserPoint chargeUserPoint(long userId, long amount);
+
+    //포인트 사용
+    public UserPoint useUserPoint(long userId, long amount);
+
+
 }

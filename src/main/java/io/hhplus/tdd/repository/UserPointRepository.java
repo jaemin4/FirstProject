@@ -16,8 +16,9 @@ public class UserPointRepository {
         return userPointTable.selectById(id);
     }
 
-    public UserPoint insertDetailUserPoint(long id, long amount){
-        return userPointTable.insertOrUpdate(id,amount);
+    public UserPoint insertDetailUserPoint(long id, long amount) {
+        return userPointTable.insertOrUpdate(id, amount);
     }
+
 
 }
